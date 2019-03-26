@@ -5373,7 +5373,19 @@ body {
   color: #767676 !important;
 }
 .cid-rlQhPwuyE7 {
-  background-image: url("../../../assets/images/background4.jpg");
+  background-image: url("../../../assets/images/c6b1f508-bedd-484b-9715-9ec2246dc852-1599x899.jpg");
+}
+.cid-rlQpvXkokq {
+  background: #ffffff;
+}
+.cid-rlQpvXkokq .video-block {
+  margin: auto;
+  width: 100% !important;
+}
+@media (max-width: 768px) {
+  .cid-rlQpvXkokq .video-block {
+    width: 100% !important;
+  }
 }
 .cid-rlKlJcTUXk {
   padding-top: 30px;
