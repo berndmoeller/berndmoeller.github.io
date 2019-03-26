@@ -1,7 +1,7 @@
 {
   "settings": {
     "name": "Segelclub Fischen",
-    "currentPage": "page6.html",
+    "currentPage": "index.html",
     "theme": {
       "name": "mobirise4",
       "title": "Mobirise 4",
@@ -786,7 +786,7 @@
                 "overlay": true,
                 "contentAlign": "center",
                 "text": "Der SCF fördert mit 3 Trainern und wöchentlichem Segel-Training die Segelausbildung für die Jugend und hat hierfür einen umfangreichen Bootspool bestehend aus 10 Optimisten, 6 Lasern, einem 470er und einem Hobiecat 16. Als Arbeitsboot für die Segelausbildung und Begleitboot bei Regatten unterhält der Verein ein Motorboot.",
-                "buttons": " <a data-app-btn=\"true\" class=\"btn  btn-white-outline display-4\" data-app-placeholder=\"Type Text\" href=\"https://mobirise.com\" data-toolbar=\"-mbrBtnMove\">ZUR JUGEND</a>",
+                "buttons": " <a data-app-btn=\"true\" class=\"btn  btn-white-outline display-4\" data-app-placeholder=\"Type Text\" href=\"page6.html\" data-toolbar=\"-mbrBtnMove\">ZUR JUGEND</a>",
                 "overlayOpacity": "0.2"
               },
               {
@@ -804,7 +804,7 @@
                 "overlay": true,
                 "contentAlign": "center",
                 "text": "Der SCF richtet seit vielen Jahren gut eingeführte Regatten aus, bei denen wir auch viele Segler aus anderen Vereinen begrüßen dürfen",
-                "buttons": " <a data-app-btn=\"true\" class=\"btn  btn-white-outline display-4\" data-app-placeholder=\"Type Text\" href=\"https://mobirise.com\" data-toolbar=\"-mbrBtnMove\">ZU REGATTEN</a>",
+                "buttons": " <a data-app-btn=\"true\" class=\"btn  btn-white-outline display-4\" data-app-placeholder=\"Type Text\" href=\"page1.html\" data-toolbar=\"-mbrBtnMove\">ZU REGATTEN</a>",
                 "overlayOpacity": "0.3"
               },
               {
