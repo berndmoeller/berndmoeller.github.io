@@ -5611,26 +5611,35 @@ body {
 .cid-rlKlJcTUXk .media-container-row .row-copirayt p {
   width: 100%;
 }
-.cid-rlZWsWhbcS {
-  background: #ffffff;
+.cid-rm6iVmnFg9 {
+  background-image: url("https://www.segelclub-fischen.de/webcam/webcam-qxga.jpg");
 }
-.cid-rlZWsWhbcS .image-block {
-  margin: auto;
-  width: 100% !important;
+.cid-rm6haoixKa {
+  padding-top: 60px;
+  padding-bottom: 15px;
+  background-color: #ffffff;
 }
-.cid-rlZWsWhbcS .mbr-figure {
+.cid-rm6haoixKa .mbr-section-subtitle {
+  color: #767676;
+}
+.cid-rm6m83R9e0 {
+  padding-top: 90px;
+  padding-bottom: 90px;
+  background-image: url("../../../assets/images/img-3745-1280x960.jpg");
+}
+.cid-rm6m83R9e0 .mbr-figure {
+  margin: 0 auto;
+  width: 100%;
+  display: -webkit-flex;
+  justify-content: center;
+  -webkit-justify-content: center;
+}
+.cid-rm6m83R9e0 .mbr-figure img {
+  height: 100%;
   margin: 0 auto;
 }
-.cid-rlZWsWhbcS figcaption {
-  position: relative;
-}
-.cid-rlZWsWhbcS figcaption div {
-  position: absolute;
-  bottom: 0;
-  width: 100%;
-}
-@media (max-width: 768px) {
-  .cid-rlZWsWhbcS .image-block {
+@media (max-width: 991px) {
+  .cid-rm6m83R9e0 .mbr-figure img {
     width: 100% !important;
   }
 }
@@ -6040,6 +6049,14 @@ body {
 .cid-rlJRlDHyB2 .nav-link:hover,
 .cid-rlJRlDHyB2 .dropdown-item:hover {
   color: #767676 !important;
+}
+.cid-rm6iAK2toP {
+  padding-top: 60px;
+  padding-bottom: 15px;
+  background-color: #ffffff;
+}
+.cid-rm6iAK2toP .mbr-section-subtitle {
+  color: #767676;
 }
 .cid-rlKlJcTUXk {
   padding-top: 30px;
@@ -6607,6 +6624,35 @@ body {
 .cid-rlKlJcTUXk .media-container-row .row-copirayt p {
   width: 100%;
 }
+.cid-rm6fUaIok4 {
+  padding-top: 120px;
+  padding-bottom: 30px;
+  background-color: #ffffff;
+}
+.cid-rm6fUaIok4 .mbr-section-subtitle {
+  color: #767676;
+}
+.cid-rm6fdtDpXk {
+  background: #0f7699;
+  padding-top: 60px;
+  padding-bottom: 60px;
+}
+.cid-rm6fdtDpXk .image-block {
+  margin: auto;
+}
+.cid-rm6fdtDpXk figcaption {
+  position: relative;
+}
+.cid-rm6fdtDpXk figcaption div {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+}
+@media (max-width: 768px) {
+  .cid-rm6fdtDpXk .image-block {
+    width: 100% !important;
+  }
+}
 .cid-rlJRlDHyB2 .navbar {
   background: #efefef;
   transition: none;
@@ -7091,4 +7137,12 @@ body {
 }
 .cid-rlKlJcTUXk .media-container-row .row-copirayt p {
   width: 100%;
+}
+.cid-rm6fUheWwT {
+  padding-top: 60px;
+  padding-bottom: 60px;
+  background-color: #ffffff;
+}
+.cid-rm6fUheWwT .mbr-section-subtitle {
+  color: #767676;
 }
