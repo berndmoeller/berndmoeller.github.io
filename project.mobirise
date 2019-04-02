@@ -1,7 +1,7 @@
 {
   "settings": {
     "name": "Segelclub Fischen",
-    "currentPage": "index.html",
+    "currentPage": "mitgliederbereich.html",
     "theme": {
       "name": "mobirise4",
       "title": "Mobirise 4",
@@ -38,7 +38,7 @@
     "noImageResize": "",
     "cookiesAlert": "",
     "siteUrl": "undefined",
-    "uniqCompNum": 103,
+    "uniqCompNum": 104,
     "versionPublish": "4.9.7",
     "screenshot": "screenshot.png",
     "google-analytics": "<!-- Global site tag (gtag.js) - Google Analytics -->\r\n<script async src=\"https://www.googletagmanager.com/gtag/js?id=UA-137474323-1\"></script>\r\n<script>\r\n  window.dataLayer = window.dataLayer || [];\r\n  function gtag(){dataLayer.push(arguments);}\r\n  gtag('js', new Date());\r\n\r\n  gtag('config', 'UA-137474323-1');\r\n</script>"
@@ -1686,9 +1686,25 @@
             }
           },
           "_name": "header2",
-          "_customHTML": "<section group=\"Headers\" data-bg-video=\"{{bg.type == 'video' && bg.value.url}}\" mbr-class=\"{\n         'mbr-fullscreen': fullScreen,\n         'mbr-parallax-background': bg.parallax}\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"checkbox\" title=\"Full-Screen\" name=\"fullScreen\" checked>\n        <input type=\"range\" inline title=\"Oben\" name=\"paddingTop\" min=\"0\" max=\"9\" step=\"1\" value=\"6\" condition=\"fullScreen == false\">\n        <input type=\"range\" inline title=\"Unten\" name=\"paddingBottom\" min=\"0\" max=\"9\" step=\"1\" value=\"6\" condition=\"fullScreen == false\">\n        <input type=\"checkbox\" title=\"Pfeil Anzeigen\" name=\"showArrow\" checked>\n        <input type=\"checkbox\" title=\"Titel Anzeigen\" name=\"showTitle\" checked>\n        <input type=\"checkbox\" title=\"Untertitel Anzeigen\" name=\"showSubTitle\">\n        <input type=\"checkbox\" title=\"Text Anzeigen\" name=\"showText\" checked>\n        <input type=\"checkbox\" title=\"Buttons Anzeigen\" name=\"showButtons\" checked>\n\n        <fieldset type=\"background\" name=\"bg\" parallax>\n            <input type=\"image\" title=\"Hintergrundbild\" value=\"@PROJECT_PATH@/assets/images/thumb-img-5613-1024-1024x768.jpg\" parallax selected>\n            <input type=\"color\" title=\"Hintergrundfarbe\" value=\"#073B4C\">\n            <input type=\"video\" title=\"Hintergrundvideo\" value=\"https://www.youtube.com/watch?v=36YgDDJ7XSc\">\n        </fieldset>\n        <input type=\"checkbox\" title=\"Overlay\" name=\"overlay\" condition=\"bg.type !== 'color'\" checked>\n        <input type=\"color\" title=\"Overlay-Farbe\" name=\"overlayColor\" value=\"#232323\" condition=\"overlay && bg.type !== 'color'\">\n        <input type=\"range\" inline title=\"Transparenz\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.5\" condition=\"overlay && bg.type !== 'color'\">\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n    <div class=\"mbr-overlay\" mbr-if=\"overlay && bg.type !== 'color'\" opacity=\"{{overlayOpacity}}\" bg-color=\"{{overlayColor}}\"></div>\n\n    <div class=\"container align-center\">\n        <div class=\"row justify-content-md-center\">\n            <div class=\"mbr-white col-md-10\">\n                <h1 class=\"mbr-section-title mbr-bold pb-3 mbr-fonts-style\" mbr-theme-style=\"display-1\" mbr-if=\"showTitle\">\n                    Mitgliederbereich</h1>\n                <h3 class=\"mbr-section-subtitle align-center mbr-light pb-3 mbr-fonts-style\" mbr-theme-style=\"display-2\" mbr-if=\"showSubTitle\">\n                    Schöne mobile Websites\n                </h3>\n                <p class=\"mbr-text pb-3 mbr-fonts-style\" mbr-theme-style=\"display-5\" mbr-if=\"showText\" data-app-selector=\".mbr-text, .mbr-section-btn\">Diese Seite führt zu einem geschützten Bereich für registrierte Mitglieder.<br>Der Bereich ist erst nach Anmeldung aufrufbar.</p>\n                <div mbr-buttons mbr-theme-style=\"display-4\" class=\"mbr-section-btn\" mbr-if=\"showButtons\" data-toolbar=\"-mbrBtnMove\"><a class=\"btn btn-md btn-primary\" href=\"index.html\" data-app-placeholder=\"Type Text\">LOGIN</a></div>\n            </div>\n        </div>\n    </div>\n    <div mbr-if=\"showArrow\" class=\"mbr-arrow hidden-sm-down\" aria-hidden=\"true\">\n        <a href=\"#next\">\n            <i class=\"mbri-down mbr-iconfont\"></i>\n        </a>\n    </div>\n</section>",
+          "_customHTML": "<section group=\"Headers\" data-bg-video=\"{{bg.type == 'video' && bg.value.url}}\" mbr-class=\"{\n         'mbr-fullscreen': fullScreen,\n         'mbr-parallax-background': bg.parallax}\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"checkbox\" title=\"Full-Screen\" name=\"fullScreen\" checked>\n        <input type=\"range\" inline title=\"Oben\" name=\"paddingTop\" min=\"0\" max=\"9\" step=\"1\" value=\"6\" condition=\"fullScreen == false\">\n        <input type=\"range\" inline title=\"Unten\" name=\"paddingBottom\" min=\"0\" max=\"9\" step=\"1\" value=\"6\" condition=\"fullScreen == false\">\n        <input type=\"checkbox\" title=\"Pfeil Anzeigen\" name=\"showArrow\" checked>\n        <input type=\"checkbox\" title=\"Titel Anzeigen\" name=\"showTitle\" checked>\n        <input type=\"checkbox\" title=\"Untertitel Anzeigen\" name=\"showSubTitle\">\n        <input type=\"checkbox\" title=\"Text Anzeigen\" name=\"showText\" checked>\n        <input type=\"checkbox\" title=\"Buttons Anzeigen\" name=\"showButtons\">\n\n        <fieldset type=\"background\" name=\"bg\" parallax>\n            <input type=\"image\" title=\"Hintergrundbild\" value=\"@PROJECT_PATH@/assets/images/thumb-img-5613-1024-1024x768.jpg\" parallax selected>\n            <input type=\"color\" title=\"Hintergrundfarbe\" value=\"#073B4C\">\n            <input type=\"video\" title=\"Hintergrundvideo\" value=\"https://www.youtube.com/watch?v=36YgDDJ7XSc\">\n        </fieldset>\n        <input type=\"checkbox\" title=\"Overlay\" name=\"overlay\" condition=\"bg.type !== 'color'\" checked>\n        <input type=\"color\" title=\"Overlay-Farbe\" name=\"overlayColor\" value=\"#232323\" condition=\"overlay && bg.type !== 'color'\">\n        <input type=\"range\" inline title=\"Transparenz\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.5\" condition=\"overlay && bg.type !== 'color'\">\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n    <div class=\"mbr-overlay\" mbr-if=\"overlay && bg.type !== 'color'\" opacity=\"{{overlayOpacity}}\" bg-color=\"{{overlayColor}}\"></div>\n\n    <div class=\"container align-center\">\n        <div class=\"row justify-content-md-center\">\n            <div class=\"mbr-white col-md-10\">\n                <h1 class=\"mbr-section-title mbr-bold pb-3 mbr-fonts-style\" mbr-theme-style=\"display-1\" mbr-if=\"showTitle\">\n                    Mitgliederbereich</h1>\n                <h3 class=\"mbr-section-subtitle align-center mbr-light pb-3 mbr-fonts-style\" mbr-theme-style=\"display-2\" mbr-if=\"showSubTitle\">\n                    Schöne mobile Websites\n                </h3>\n                <p class=\"mbr-text pb-3 mbr-fonts-style\" mbr-theme-style=\"display-5\" mbr-if=\"showText\" data-app-selector=\".mbr-text, .mbr-section-btn\">Diese Seite führt zu einem geschützten Bereich für registrierte Mitglieder.<br>Der Bereich ist erst nach Anmeldung aufrufbar.</p>\n                <div mbr-buttons mbr-theme-style=\"display-4\" class=\"mbr-section-btn\" mbr-if=\"showButtons\" data-toolbar=\"-mbrBtnMove\"><a class=\"btn btn-md btn-primary\" href=\"anmeldung\" data-app-placeholder=\"Type Text\">LOGIN</a></div>\n            </div>\n        </div>\n    </div>\n    <div mbr-if=\"showArrow\" class=\"mbr-arrow hidden-sm-down\" aria-hidden=\"true\">\n        <a href=\"#next\">\n            <i class=\"mbri-down mbr-iconfont\"></i>\n        </a>\n    </div>\n</section>",
           "_cid": "rm5XYgMcM2",
           "_anchor": "header2-24",
+          "_protectedParams": [],
+          "_global": false,
+          "_once": false,
+          "_params": {}
+        },
+        {
+          "_styles": {
+            "padding-top": "30px",
+            "padding-bottom": "30px"
+          },
+          "_name": "form1",
+          "_customHTML": "<center>\n<form class=\"block mbr-form\" method=\"post\">\n                 <p>\n                  <label>Benutzer:\n                  <input class=\"form-control input\" type=\"text\" name=\"name\" required=\"required\" autocomplete=\"username\" autofocus=\"autofocus\">\n                  </label>\n                 </p>\n                 <p><label>Passwort:\n                  <input class=\"form-control input\" type=\"password\" name=\"passwort\" required=\"required\" autocomplete=\"current-password\">\n                  </label>\n                 </p>\n                 <p>\n                  <input type=\"submit\" class=\"btn btn-md btn-secondary btn-bgr\" name=\"anmeldung\" value=\"ANMELDEN\">\n                 </p>\n</form>\n</center>",
+          "_anchor": "form1-2v",
+          "_isUserblock": true,
+          "_sourceTheme": "mobirise4",
+          "_cid": "rmuRSj06Eq",
           "_protectedParams": [],
           "_global": false,
           "_once": false,
@@ -2216,7 +2232,7 @@
       "settings": {
         "meta_descr": "Site Creator Description",
         "title": "Intern",
-        "order": 3,
+        "order": 4,
         "html_before": "<?php\n/*\n * PHP-Webseitenschutz - geheim.php - (utf-8)\n * - https://werner-zenk.de\n * \n * Dieses PHP-Script muss an den Anfang jeder\n *  Datei die geschützt werden soll.\n */\n\nsession_start();\nif (!isset($_SESSION[\"benutzername\"])) {\n // Zur Anmeldung weiterleiten (Pfadangabe beachten!)\n header(\"Location: mitgliederbereich.php\");\n exit;\n}\n?>"
       },
       "components": [
@@ -2765,7 +2781,7 @@
       "settings": {
         "meta_descr": "Website Generator Description",
         "title": "Webcam",
-        "order": 4
+        "order": 5
       },
       "components": [
         {
@@ -3398,7 +3414,7 @@
       "settings": {
         "meta_descr": "Web Site Creator Description",
         "title": "Jugend",
-        "order": 5
+        "order": 6
       },
       "components": [
         {
@@ -4090,7 +4106,7 @@
       "settings": {
         "meta_descr": "Web Creator Description",
         "title": "Regatten",
-        "order": 6
+        "order": 7
       },
       "components": [
         {
@@ -5068,7 +5084,7 @@
       "settings": {
         "meta_descr": "Site Creator Description",
         "title": "Termine",
-        "order": 7
+        "order": 8
       },
       "components": [
         {
@@ -5696,7 +5712,7 @@
       "settings": {
         "meta_descr": "Web Page Creator Description",
         "title": "Datenschutz",
-        "order": 8
+        "order": 9
       },
       "components": [
         {
@@ -6240,7 +6256,7 @@
       "settings": {
         "meta_descr": "Web Builder Description",
         "title": "Impressum",
-        "order": 9
+        "order": 10
       },
       "components": [
         {
@@ -6819,7 +6835,7 @@
       "settings": {
         "meta_descr": "Site Maker Description",
         "title": "Kontakt",
-        "order": 10
+        "order": 11
       },
       "components": [
         {
