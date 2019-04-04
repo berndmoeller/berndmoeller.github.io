@@ -36,12 +36,13 @@
     "siteFonts": [],
     "favicon": "@PROJECT_PATH@/assets/images/logo-620-85000562.gif",
     "noImageResize": "",
-    "cookiesAlert": "",
+    "cookiesAlert": "Wir verwenden Cookies, um Ihr Shoppingerlebnis zu verbessern. Wenn Sie weiter auf unserer Seite surfen, akzeptieren Sie die Cookie-Policy. Weiterlesen <a href='datenschutz.html'>cookie policy</a>.",
     "siteUrl": "undefined",
     "uniqCompNum": 104,
     "versionPublish": "4.9.7",
     "screenshot": "screenshot.png",
-    "google-analytics": "<!-- Global site tag (gtag.js) - Google Analytics -->\r\n<script async src=\"https://www.googletagmanager.com/gtag/js?id=UA-137474323-1\"></script>\r\n<script>\r\n  window.dataLayer = window.dataLayer || [];\r\n  function gtag(){dataLayer.push(arguments);}\r\n  gtag('js', new Date());\r\n\r\n  gtag('config', 'UA-137474323-1');\r\n</script>"
+    "google-analytics": "<!-- Global site tag (gtag.js) - Google Analytics -->\r\n<script async src=\"https://www.googletagmanager.com/gtag/js?id=UA-137474323-1\"></script>\r\n<script>\r\n  window.dataLayer = window.dataLayer || [];\r\n  function gtag(){dataLayer.push(arguments);}\r\n  gtag('js', new Date());\r\n\r\n  gtag('config', 'UA-137474323-1');\r\n</script>",
+    "gdpr": ""
   },
   "pages": {
     "index.html": {
