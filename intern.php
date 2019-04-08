@@ -240,7 +240,7 @@ if (!isset($_SESSION["benutzername"])) {
                         Regatten</a>
                 </li><li class="nav-item"><a class="nav-link link text-black display-4" href="termine.html">
                         Termine</a></li>
-                <li class="nav-item dropdown open"><a class="nav-link link text-black dropdown-toggle display-4" href="jugend.html" data-toggle="dropdown-submenu">Jugend</a><div class="dropdown-menu"><a class="text-black dropdown-item display-4" href="jugend.html">New Item</a></div></li><li class="nav-item"><a class="nav-link link text-black display-4" href="webcam.html">Webcam</a></li><li class="nav-item"><a class="nav-link link text-black display-4" href="aktuelles.html">Aktuelles</a></li><li class="nav-item"><a class="nav-link link text-black display-4" href="mitgliederbereich.php">Mitgliederbereich</a></li></ul>
+                <li class="nav-item dropdown"><a class="nav-link link text-black display-4" href="jugend.html" aria-expanded="false">Jugend</a></li><li class="nav-item"><a class="nav-link link text-black display-4" href="webcam.html">Webcam</a></li><li class="nav-item"><a class="nav-link link text-black display-4" href="aktuelles.html">Aktuelles</a></li><li class="nav-item"><a class="nav-link link text-black display-4" href="mitgliederbereich.php">Mitgliederbereich</a></li></ul>
             
         </div>
     </nav>

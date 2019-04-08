@@ -151,7 +151,7 @@ $_SESSION = array();
                         Regatten</a>
                 </li><li class="nav-item"><a class="nav-link link text-black display-4" href="termine.html">
                         Termine</a></li>
-                <li class="nav-item"><a class="nav-link link text-black display-4" href="jugend.html">Jugend</a></li><li class="nav-item"><a class="nav-link link text-black display-4" href="webcam.html">Webcam</a></li><li class="nav-item"><a class="nav-link link text-black display-4" href="aktuelles.html">Aktuelles</a></li><li class="nav-item"><a class="nav-link link text-black display-4" href="mitgliederbereich.php">Mitgliederbereich</a></li></ul>
+                <li class="nav-item dropdown"><a class="nav-link link text-black display-4" href="jugend.html" aria-expanded="false">Jugend</a></li><li class="nav-item"><a class="nav-link link text-black display-4" href="webcam.html">Webcam</a></li><li class="nav-item"><a class="nav-link link text-black display-4" href="aktuelles.html">Aktuelles</a></li><li class="nav-item"><a class="nav-link link text-black display-4" href="mitgliederbereich.php">Mitgliederbereich</a></li></ul>
             
         </div>
     </nav>
