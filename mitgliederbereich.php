@@ -79,49 +79,7 @@ $_SESSION = array();
 <!-- /Google Analytics -->
 
 
-  <section class="cid-rm5XYgMcM2 mbr-fullscreen mbr-parallax-background" id="header2-24">
-
-    
-
-    <div class="mbr-overlay" style="opacity: 0.5; background-color: rgb(35, 35, 35);"></div>
-
-    <div class="container align-center">
-        <div class="row justify-content-md-center">
-            <div class="mbr-white col-md-10">
-                <h1 class="mbr-section-title mbr-bold pb-3 mbr-fonts-style display-1">
-                    Mitgliederbereich</h1>
-                
-                <p class="mbr-text pb-3 mbr-fonts-style display-5">Diese Seite führt zu einem geschützten Bereich für Mitglieder des SCF.<br>Der Bereich ist erst nach Anmeldung aufrufbar.<br>Bitte nach unten scrollen und einloggen.</p>
-                
-            </div>
-        </div>
-    </div>
-    <div class="mbr-arrow hidden-sm-down" aria-hidden="true">
-        <a href="#next">
-            <i class="mbri-down mbr-iconfont"></i>
-        </a>
-    </div>
-</section>
-
-<center class="cid-rmFNllkLED" id="form1-2x" data-rv-view="325">
-<form class="block mbr-form" method="post">
-                 <p>
-                  <label>Benutzer:
-                  <input class="form-control input" type="text" name="name" required="required" autocomplete="username" autofocus="autofocus">
-                  </label>
-                 </p>
-                 <p>
-                  <label>Passwort:
-                  <input class="form-control input" type="password" name="passwort" required="required" autocomplete="current-password">
-                  </label>
-                 </p>
-                 <p>
-                  <input type="submit" class="btn btn-md btn-secondary btn-bgr" name="anmeldung" value="ANMELDEN">
-                 </p>
-</form>
-</center>
-
-<section class="menu cid-rlJRlDHyB2" once="menu" id="menu2-20">
+  <section class="menu cid-rlJRlDHyB2" once="menu" id="menu2-20">
 
     
 
@@ -156,6 +114,48 @@ $_SESSION = array();
         </div>
     </nav>
 </section>
+
+<section class="cid-rm5XYgMcM2 mbr-fullscreen mbr-parallax-background" id="header2-24">
+
+    
+
+    <div class="mbr-overlay" style="opacity: 0.5; background-color: rgb(35, 35, 35);"></div>
+
+    <div class="container align-center">
+        <div class="row justify-content-md-center">
+            <div class="mbr-white col-md-10">
+                <h1 class="mbr-section-title mbr-bold pb-3 mbr-fonts-style display-1">
+                    Mitgliederbereich</h1>
+                
+                <p class="mbr-text pb-3 mbr-fonts-style display-5">Diese Seite führt zu einem geschützten Bereich für Mitglieder des SCF.<br>Der Bereich ist erst nach Anmeldung aufrufbar.<br>Bitte nach unten scrollen und einloggen.</p>
+                
+            </div>
+        </div>
+    </div>
+    <div class="mbr-arrow hidden-sm-down" aria-hidden="true">
+        <a href="#next">
+            <i class="mbri-down mbr-iconfont"></i>
+        </a>
+    </div>
+</section>
+
+<center class="cid-rmFNllkLED" id="form1-2x" data-rv-view="642">
+<form class="block mbr-form" method="post">
+                 <p>
+                  <label>Benutzer:
+                  <input class="form-control input" type="text" name="name" required="required" autocomplete="username" autofocus="autofocus">
+                  </label>
+                 </p>
+                 <p>
+                  <label>Passwort:
+                  <input class="form-control input" type="password" name="passwort" required="required" autocomplete="current-password">
+                  </label>
+                 </p>
+                 <p>
+                  <input type="submit" class="btn btn-md btn-secondary btn-bgr" name="anmeldung" value="ANMELDEN">
+                 </p>
+</form>
+</center>
 
 <section once="footers" class="cid-rlKlJcTUXk mbr-reveal" id="footer7-21">
 
