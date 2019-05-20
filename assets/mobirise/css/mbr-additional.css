@@ -4248,7 +4248,7 @@ body {
   color: #767676 !important;
 }
 .cid-rlKghchq4l {
-  background-image: url("../../../assets/images/50394837-600x450.jpg");
+  background-image: url("../../../assets/images/fischen-open-130720-start2-2000x1024.jpg");
 }
 .cid-rlPVMszbUb {
   padding-top: 90px;
@@ -6787,6 +6787,101 @@ body {
 padding-top: 30px;
 padding-bottom: 30px;
 background-color: @bg-value;
+}
+
+.cid-rn2AjcpgBE {
+@paddingTop: 4;
+@paddingBottom: 4;
+@mediaSize: 60;
+@reverseContent: false;
+@bgColor: #ffffff;
+
+padding-top: (@paddingTop * 15px);
+padding-bottom: (@paddingBottom * 15px);
+background-color: @bgColor;
+& when not (@reverseContent) {
+  @media (min-width: 992px) {
+    .mbr-figure {
+      padding-right: 4rem;
+    }
+  }
+  @media (max-width: 991px) {
+    .mbr-figure {
+      padding-bottom: 1rem;
+    }
+  }
+}
+& when (@reverseContent) {
+  .media-container-row {
+    flex-direction: row-reverse;
+    -webkit-flex-direction: row-reverse;
+  }
+  @media (min-width: 992px) {
+    .mbr-figure {
+      padding-left: 4rem;
+    }
+  }
+  @media (max-width: 991px) {
+    .media-container-row {
+      flex-wrap: wrap-reverse;
+      -webkit-flex-wrap: wrap-reverse;
+    }
+    .mbr-figure {
+      padding-top: 1rem;
+    }
+  }
+}
+.mbr-text {
+  color: #767676;
+}
+}
+
+.cid-rn2Al8cMV1 {
+@paddingTop: 4;
+@paddingBottom: 4;
+@mediaSize: 60;
+@widthContent: 2;
+@reverseContent: true;
+@bgColor: #ffffff;
+
+padding-top: (@paddingTop * 15px);
+padding-bottom: (@paddingBottom * 15px);
+background-color: @bgColor;
+& when (@reverseContent) {
+  @media (min-width: 992px) {
+    .mbr-figure {
+      padding-left: 4rem;
+    }
+  }
+  @media (max-width: 992px) {
+    .mbr-figure {
+      padding-top: 1rem;
+    }
+  }
+}
+& when not (@reverseContent) {
+  .media-container-row {
+    flex-direction: row-reverse;
+    -webkit-flex-direction: row-reverse;
+  }
+  @media (min-width: 992px) {
+    .mbr-figure {
+      padding-right: 4rem;
+    }
+  }
+  @media (max-width: 991px) {
+    .media-container-row {
+      flex-wrap: wrap-reverse;
+      -webkit-flex-wrap: wrap-reverse;
+    }
+    .mbr-figure {
+      padding-bottom: 1rem;
+    }
+  }
+}
+.mbr-text {
+  color: #767676;
+}
 }
 
 .cid-rlJRlDHyB2 {

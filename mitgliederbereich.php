@@ -79,7 +79,97 @@ $_SESSION = array();
 <!-- /Google Analytics -->
 
 
-  <section class="menu cid-rlJRlDHyB2" once="menu" id="menu2-20">
+  <section class="cid-rm5XYgMcM2 mbr-fullscreen mbr-parallax-background" id="header2-24">
+
+    
+
+    <div class="mbr-overlay" style="opacity: 0.5; background-color: rgb(35, 35, 35);"></div>
+
+    <div class="container align-center">
+        <div class="row justify-content-md-center">
+            <div class="mbr-white col-md-10">
+                <h1 class="mbr-section-title mbr-bold pb-3 mbr-fonts-style display-1">
+                    Mitgliederbereich</h1>
+                
+                <p class="mbr-text pb-3 mbr-fonts-style display-5">Diese Seite führt zu einem geschützten Bereich für Mitglieder des SCF.<br>Der Bereich ist erst nach Anmeldung aufrufbar.<br>Bitte nach unten scrollen und einloggen.<br><br>Sie haben Interesse an einer Mitgliedschaft, dann klicken Sie bitte hier</p>
+                
+            </div>
+        </div>
+    </div>
+    <div class="mbr-arrow hidden-sm-down" aria-hidden="true">
+        <a href="#next">
+            <i class="mbri-down mbr-iconfont"></i>
+        </a>
+    </div>
+</section>
+
+<center class="cid-rmFNllkLED" id="form1-2x" data-rv-view="325">
+<form class="block mbr-form" method="post">
+                 <p>
+                  <label>Benutzer:
+                  <input class="form-control input" type="text" name="name" required="required" autocomplete="username" autofocus="autofocus">
+                  </label>
+                 </p>
+                 <p>
+                  <label>Passwort:
+                  <input class="form-control input" type="password" name="passwort" required="required" autocomplete="current-password">
+                  </label>
+                 </p>
+                 <p>
+                  <input type="submit" class="btn btn-md btn-secondary btn-bgr" name="anmeldung" value="ANMELDEN">
+                 </p>
+</form>
+</center>
+
+<section class="mbr-section content6 cid-rn2AjcpgBE" id="content6-33">
+    
+     
+    
+    <div class="container">
+        <div class="media-container-row">
+            <div class="col-12 col-md-8">
+                <div class="media-container-row">
+                    <div class="mbr-figure" style="width: 60%;">
+                      <img src="assets/images/background1.jpg" alt="Mobirise">  
+                    </div>
+                    <div class="media-content">
+                        <div class="mbr-section-text">
+                            <p class="mbr-text mb-0 mbr-fonts-style display-7">
+                               <strong>Mitgliedschaft Erwachsene</strong><br>Das Mobirise Programm kann Ihnen helfen, die Zeit für die Entwicklung Ihrer Website zu sparen, indem es einen flexiblen Website-Editor mit einem drag-and-drop Interface zur Verfügung stellt. Mobirise Website-Baukasten lässt Sie responsive und <em> Mobile-freundliche Websites </em> mit ein paar Klicks erstellen. Mobirise ist eins der einfachsten Tools für die Website-Entwicklung, die es heute gibt.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="mbr-section content7 cid-rn2Al8cMV1" id="content7-34">
+          
+    
+
+    <div class="container">
+        <div class="media-container-row">
+            <div class="col-12 col-md-8">
+                <div class="media-container-row">
+                    <div class="media-content">
+                        <div class="mbr-section-text">
+                            <p class="mbr-text align-right mb-0 mbr-fonts-style display-7">
+                               <strong>Mitgliedschaft Jugend</strong><br>Das Mobirise Programm kann Ihnen helfen, die Zeit für die Entwicklung Ihrer Website zu sparen, indem es einen flexiblen Website-Editor mit einem drag-and-drop Interface zur Verfügung stellt. Mobirise Website-Baukasten lässt Sie responsive und <em> Mobile-freundliche Websites </em> mit ein paar Klicks erstellen. Mobirise ist eins der einfachsten Tools für die Website-Entwicklung, die es heute gibt.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="mbr-figure" style="width: 60%;">
+                     <img src="assets/images/background1.jpg" alt="Mobirise">  
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="menu cid-rlJRlDHyB2" once="menu" id="menu2-20">
 
     
 
@@ -114,48 +204,6 @@ $_SESSION = array();
         </div>
     </nav>
 </section>
-
-<section class="cid-rm5XYgMcM2 mbr-fullscreen mbr-parallax-background" id="header2-24">
-
-    
-
-    <div class="mbr-overlay" style="opacity: 0.5; background-color: rgb(35, 35, 35);"></div>
-
-    <div class="container align-center">
-        <div class="row justify-content-md-center">
-            <div class="mbr-white col-md-10">
-                <h1 class="mbr-section-title mbr-bold pb-3 mbr-fonts-style display-1">
-                    Mitgliederbereich</h1>
-                
-                <p class="mbr-text pb-3 mbr-fonts-style display-5">Diese Seite führt zu einem geschützten Bereich für Mitglieder des SCF.<br>Der Bereich ist erst nach Anmeldung aufrufbar.<br>Bitte nach unten scrollen und einloggen.</p>
-                
-            </div>
-        </div>
-    </div>
-    <div class="mbr-arrow hidden-sm-down" aria-hidden="true">
-        <a href="#next">
-            <i class="mbri-down mbr-iconfont"></i>
-        </a>
-    </div>
-</section>
-
-<center class="cid-rmFNllkLED" id="form1-2x" data-rv-view="642">
-<form class="block mbr-form" method="post">
-                 <p>
-                  <label>Benutzer:
-                  <input class="form-control input" type="text" name="name" required="required" autocomplete="username" autofocus="autofocus">
-                  </label>
-                 </p>
-                 <p>
-                  <label>Passwort:
-                  <input class="form-control input" type="password" name="passwort" required="required" autocomplete="current-password">
-                  </label>
-                 </p>
-                 <p>
-                  <input type="submit" class="btn btn-md btn-secondary btn-bgr" name="anmeldung" value="ANMELDEN">
-                 </p>
-</form>
-</center>
 
 <section once="footers" class="cid-rlKlJcTUXk mbr-reveal" id="footer7-21">
 
@@ -198,7 +246,7 @@ $_SESSION = array();
                     </div></div>
             </div>
             <div class="row row-copirayt">
-                <p class="mbr-text mb-0 mbr-fonts-style mbr-white align-center display-7">© Copyright 2019 Bernd Möller</p>
+                <p class="mbr-text mb-0 mbr-fonts-style mbr-white align-center display-7">© Copyright 2019 Segelclub Fischen</p>
             </div>
         </div>
     </div>
